@@ -48,19 +48,19 @@ function RecipeSearch() {
           Find delicious recipes by ingredients or recipe name.
         </p>
         <div className="mb-6">
-          <p className="text-lg mb-3">Try searching for:</p>
-          <div className="flex space-x-2 mt-2">
-            {examples.map((example) => (
-              <span
-                key={example}
-                className="px-3 py-1 bg-gray-200 rounded-md cursor-pointer text-sm"
-                onClick={() => setQuery(example)}
-              >
-                {example}
-              </span>
-            ))}
-          </div>
+        <p className="text-lg sm:text-xl mb-3">Try searching for:</p>
+      <div className="flex flex-wrap gap-2 mt-2">
+      {examples.map((example) => (
+        <span
+          key={example}
+          className="px-4 py-2 bg-gray-200 rounded-md cursor-pointer text-sm sm:text-base md:text-lg"
+          onClick={() => setQuery(example)}
+           >
+          {example}
+        </span>
+      ))}
         </div>
+      </div>
         <form className="relative w-full max-w-md mb-8" onSubmit={handleSearch}>
           <Input
             type="search"
