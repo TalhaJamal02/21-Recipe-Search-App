@@ -7,6 +7,6 @@ A simple and user-friendly web application that allows you to search for delicio
 - Recipe Previews: View recipe details, including images, titles, and a direct link to the full recipe page on Spoonacular.
 - Real-Time Search: Instant feedback with the ability to search and display results dynamically.
 
-#Tech Stack:
+## Tech Stack:
 - **Frontend**: Next.js, React, Tailwind CSS, ShadCN UI
 - **API**: Spoonacular Recipe API for retrieving recipes
